@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="071F5E4C-E47E-2799-81E6-74FAF04560E7" name="user">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:05:37 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="firstname" id="801FAD19-6BFD-C649-2A22-AEF5C682BFBE">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:11:50 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lastname" id="2BB1E854-DBD5-EBDC-B362-74278E99A74F">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:11:50 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="999AF7A8-3FE0-2FFE-1DB2-2D48BE7A545B">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:11:50 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="1B35CA71-1099-8376-7633-5B081EFD082D">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:11:50 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="EF67263B-8FC7-C712-BF1A-42876E90A354">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:11:50 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="EE1EEBAC-4406-E240-6971-40657CD80D6A">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:11:50 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82640F0B-3E85-D7BE-5772-3AECEA64AA65" name="user_PK">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:11:50 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="999AF7A8-3FE0-2FFE-1DB2-2D48BE7A545B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

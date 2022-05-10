@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="109E2914-89DC-F4EC-3D26-0C32EDCAED90" name="social">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:12:03 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="B965D98B-1013-ED3A-AF73-26D5E3D6B961">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:14:23 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F153A571-5E13-466A-802D-F42D7F853333" referredColumn="999AF7A8-3FE0-2FFE-1DB2-2D48BE7A545B"/>
+</associations>
+</Column>
+<Column name="whatsapp" id="187FA887-3A15-1207-D6E3-B9D66388CE7F">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:14:23 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="instagram" id="0B48789A-1A4E-069E-53E2-7917BF8C0D2C">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:14:23 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="linkedin" id="EFFEDB13-685C-3850-0DC0-5B3A7CB77D45">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:14:23 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="github" id="CB361E07-5EA2-120D-686B-8B396B64D906">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:14:23 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58E31A7D-9EC9-18BF-0897-3E5AA13579DB" name="social_PK">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:14:23 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B965D98B-1013-ED3A-AF73-26D5E3D6B961"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1340F8B-98A1-0565-6BF5-6646BFEB0979" name="TABLE_2_user_FK">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:14:23 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B965D98B-1013-ED3A-AF73-26D5E3D6B961"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

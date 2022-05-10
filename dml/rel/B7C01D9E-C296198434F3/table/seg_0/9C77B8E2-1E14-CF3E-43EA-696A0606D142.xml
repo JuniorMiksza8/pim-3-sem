@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C77B8E2-1E14-CF3E-43EA-696A0606D142" name="vehicle">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:17:42 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="9B9984EE-25D3-3D39-5487-A797D3AF7D4C">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:19:54 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plate" id="5B356D91-8473-380C-8A7E-C3560B48EBB3">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:19:54 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="model" id="B472E4EC-021A-BABF-6991-AE888C911738">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:19:54 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="renavam" id="E508CAFC-C408-ABDD-F298-69CB77943E61">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:19:54 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="288B78D3-39C5-3852-C425-972A6ED94EF2">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:19:54 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_email" id="70718B5D-30A4-75F8-159E-9F2E949C95E8">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:19:54 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24428E49-E314-05C8-E679-049A9F0C6942" referredColumn="999AF7A8-3FE0-2FFE-1DB2-2D48BE7A545B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E3960C6-B031-79B1-41F6-BF0627921DC2" name="TABLE_6_user_FK">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:19:54 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70718B5D-30A4-75F8-159E-9F2E949C95E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

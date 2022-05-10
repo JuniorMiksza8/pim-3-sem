@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="478674EE-B9D2-5965-E781-99393C09C03C" name="address">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:14:28 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="street" id="9690159C-ABB3-2981-3D64-D94E3A48A118">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:17:16 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="number" id="DFE11A20-2417-C412-709F-DCE530685EC6">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:17:16 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="neighborhood" id="A4C1AD2B-24D3-B2A0-64B0-2BD150BE3C0B">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:17:16 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complement" id="FCB2F686-870E-E78E-1122-2E48E28921E0">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:17:16 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reference" id="494BDB2E-5AE9-54C2-402C-8EE42DCD7CCD">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:17:16 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="2EE30A04-7865-A999-2491-E9DBE422DAE2">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:17:16 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="383CDC4D-6A81-A5A5-6F7A-B016A2944F60">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:17:16 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id" id="D750E96A-3805-9595-63AF-85A214522B22">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:17:16 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="8DEE0BBF-138D-1337-DA5D-F274147E58E9">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:17:16 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_email" id="700EC66C-4A19-A643-E05C-DD7066A47D2A">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:17:16 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12A83113-9319-A31A-6F8E-703BBF9D4FB5" referredColumn="999AF7A8-3FE0-2FFE-1DB2-2D48BE7A545B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71934812-775F-67F7-0482-4F41061FA4DD" name="address_PK">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:17:16 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D750E96A-3805-9595-63AF-85A214522B22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1154808D-B9AA-C87C-862C-7D3790F81582" name="TABLE_3_user_FK">
+<createdBy>JuniorMiksza</createdBy>
+<createdTime>2022-05-09 23:17:16 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="700EC66C-4A19-A643-E05C-DD7066A47D2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
